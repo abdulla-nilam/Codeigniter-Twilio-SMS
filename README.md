@@ -54,12 +54,12 @@ issues, as well as missing features.
 * Open `php.ini`
 * Search `curl.cainfo` 
 
-     [curl]
-     ; A default value for the CURLOPT_CAINFO option. This is required to be an
-     ; absolute path.
-     ;curl.cainfo =
+      [curl]
+      ; A default value for the CURLOPT_CAINFO option. This is required to be an
+      ; absolute path.
+      ;curl.cainfo =
    
- * Chnage  `;curl.cainfo =` to `curl.cainfo = C:\cUrl\cacert.pem` path where you have copyed the `cacert.pem`
+ * Change  `;curl.cainfo =` to `curl.cainfo = C:\cUrl\cacert.pem` path where you have copyed the `cacert.pem`
  
  
  
