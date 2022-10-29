@@ -1,25 +1,22 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+require './Twilio/autoload.php';
+
 class Welcome extends CI_Controller {
     
-
     public function index()
     {
         $this->load->view('welcome_message');
     }
+    
     public function sendSMS()
     {
         
         $number = $this->input->post('number');
         $country = $this->input->post('country');
         
-        $to = '+'.$country.$number;
-        
-        require './Twilio/autoload.php';
-        
-        // Use the REST API Client to make requests to the Twilio REST API
-        
+        $to = '+'.$country.$number;        
         
         // Your Account SID and Auth Token from twilio.com/console
         $sid = 'Your SID';
