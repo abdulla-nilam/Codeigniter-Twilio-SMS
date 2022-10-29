@@ -3,7 +3,7 @@ This project holds how to configure and setup the Twilio Messaging(SMS) using Co
 
 
 
-###Server Requirements
+##Server Requirements##
 
 * PHP **version 5.4 or newer is recommended**.
     - It should work on 5.2.4 as well, but we strongly advise you NOT to run
@@ -14,7 +14,7 @@ issues, as well as missing features.
 
 <hr>
 
-###Follow the manual changes need to be done
+###Follow the manual changes need to be done###
  * Path - application/config/config.php
  
      ```
